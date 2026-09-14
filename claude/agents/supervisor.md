@@ -2,7 +2,7 @@
 name: supervisor
 description: Multi-agent task supervisor that analyzes task complexity, spawns specialized agents, tracks dependencies, and ensures structured handoff between agents. Use when a task requires multiple agents working together, or when the user explicitly asks for multi-agent collaboration.
 tools: Agent, SendMessage, TaskCreate, TaskUpdate, TaskList, TaskGet, Read, Grep, Glob, Bash
-model: sonnet
+model: opus
 color: blue
 ---
 

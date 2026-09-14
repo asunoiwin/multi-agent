@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/rico/.codex/plugins/cache/codex-multi-agent/codex-multi-agent/1.0.0/hooks/01-route-intent.sh'"
+            "command": "./hooks/01-route-intent.sh"
           }
         ]
       }
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/rico/.codex/plugins/cache/codex-multi-agent/codex-multi-agent/1.0.0/hooks/02-result-guard.sh'"
+            "command": "./hooks/02-result-guard.sh"
           }
         ]
       }
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "'/Users/rico/.codex/plugins/cache/codex-multi-agent/codex-multi-agent/1.0.0/hooks/03-subagent-stop.sh'"
+            "command": "./hooks/03-subagent-stop.sh"
           }
         ]
       }
